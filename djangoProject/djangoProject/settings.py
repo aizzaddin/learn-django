@@ -59,7 +59,7 @@ CORS_ALLOWED_ORIGINS = (
     "http://localhost:8000",
 )
 
-CSRF_TRUSTED_ORIGINS = ["localhost:8000"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8000"]
 
 ROOT_URLCONF = 'djangoProject.urls'
 
