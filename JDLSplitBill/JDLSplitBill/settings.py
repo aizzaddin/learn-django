@@ -73,6 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'JDLSplitBill.wsgi.application'
 
+AUTH_USER_MODEL = 'API.User'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
